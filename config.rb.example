@@ -1,0 +1,7 @@
+require 'amazon/ecs'
+
+Amazon::Ecs.configure do |options|
+  options[:associate_tag] = '' # AWS Associate Tag
+  options[:AWS_access_key_id] = '' # AWS access key id
+  options[:AWS_secret_key] =  '' # AWS Secret Key
+end

@@ -1,0 +1,14 @@
+<h1>Results for Search Term "<%= @search_term %>"</h1>
+
+<table>
+  <tr>
+    <th>title</th>
+    <th>author(s)</th>
+  </tr>
+  <% @books.each do |title, authors| %>
+    <tr>
+      <td><%= title %></td>
+      <td><%= authors[:authors].join(', ') %></td>
+    </tr>
+  <% end %>
+</table>
