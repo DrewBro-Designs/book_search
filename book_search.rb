@@ -1,4 +1,4 @@
-require "./config.rb"
+require "./settings.rb"
 
 class BookSearch
   attr_reader :books

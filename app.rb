@@ -5,15 +5,16 @@
 # Display a form, and use the amazon-ecs gem to search amazon
 # for books based on the search criteria (note: This search
 # seems really wonky to me).
-require 'sinatra'
 require './book_search.rb'
 
-get '/' do
-  erb :search_form, layout: :default
-end
+class App < Sinatra::Base
+  get '/' do
+    erb :search_form, layout: :default
+  end
 
-post '/' do
-  @search_term = params[:search_term]
-  @books = BookSearch.new(@search_term).books
-  erb :results, layout: :default
+  post '/' do
+    @search_term = params[:search_term]
+    @books = BookSearch.new(@search_term).books
+    erb :results, layout: :default
+  end
 end
