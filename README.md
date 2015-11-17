@@ -13,3 +13,11 @@ bundle install
 rackup -p 3000
 ```
 If everything went well, you should be able to view the app at your [localhost](http://localhost:3000) on port 3000.
+
+## Running as Docker Container
+To run this as a docker container, make sure to have [Docker installed](https://docs.docker.com/linux/step_one/).
+```
+docker build -t book_search .
+docker run -p 3000:3000 book_search
+```
+It should then be viewable though a browser at "`your docker container ip`" on port 3000.
