@@ -1,5 +1,5 @@
 # Book Search
-Adaptation of 18.1 the [Ruby Cookbook, 2nd Edition](http://www.amazon.com/Ruby-Cookbook-Lucas-Carlson/dp/1449373712), using [sinatra](http://www.sinatrarb.com/) and [amazon-ecs](https://github.com/jugend/amazon-ecs) gems.
+Adaptation of example 18.1 from the [Ruby Cookbook, 2nd Edition](http://www.amazon.com/Ruby-Cookbook-Lucas-Carlson/dp/1449373712), using [sinatra](http://www.sinatrarb.com/) and [amazon-ecs](https://github.com/jugend/amazon-ecs) gems.
 
 ## Installation
 Make sure to have dependencies installed, which include Ruby, and the sinatra and amazon-ecs gems.  
