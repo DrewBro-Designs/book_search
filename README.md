@@ -4,7 +4,7 @@ Adaptation of 18.1 the [Ruby Cookbook, 2nd Edition](http://www.amazon.com/Ruby-C
 ## Installation
 Make sure to have dependencies installed, which include Ruby, and the sinatra and amazon-ecs gems.  
   
-**Note**: Add your AWS credentials to the settings.rb
+**Note**: Add your AWS credentials ([associate tag](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/AssociateTag.html), [access key id, and secret access key](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html)) to the settings.rb
 
 ```shell
 git clone git@github.com:drewbro-designs/book_search.git && cd book_search
